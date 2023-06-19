@@ -1,6 +1,6 @@
 # Static
 
-This is a basice engine used to launch static apps on [Nanobox](http://nanobox.io).
+This is a basice engine used to launch static apps on [Microbox](http://microbox.cloud).
 
 ## Usage
 To use the static engine, specify `static` as your `engine` in your boxfile.yml.
@@ -11,7 +11,7 @@ run.config:
 ```
 
 ## Configuration Options
-This engine exposes configuration options through the [boxfile.yml](http://docs.nanobox.io/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Nanobox. This engine makes the following options available.
+This engine exposes configuration options through the [boxfile.yml](https://docs.microbox.cloud/boxfile/), a yaml config file used to provision and configure your app's infrastructure when using Microbox. This engine makes the following options available.
 
 #### Overview of Boxfile Configuration Options
 ```yaml
@@ -19,7 +19,7 @@ run.config:
   engine.config:
     # whether to redirect http to https
     force_https: true
-    
+
     # the directory to serve up
     rel_dir: public
 
@@ -66,4 +66,4 @@ deploy.config
 ```
 
 ## Help & Support
-This is a static engine provided by [Nanobox](http://nanobox.io). If you need help with this engine, you can reach out to us in the [#nanobox IRC channel](http://webchat.freenode.net/?channels=nanobox). If you are running into an issue with the engine, feel free to [create a new issue on this project](https://github.com/nanobox-io/nanobox-engine-elixir/issues/new).
+This is a static engine provided by [Microbox](http://microbox.cloud). If you need help with this engine, you can reach out to us in the [Microbox Discord](https://discord.gg/MCDdHfy). If you are running into an issue with the engine, feel free to [create a new issue on this project](https://github.com/mu-box/microbox-engine-elixir/issues/new).
